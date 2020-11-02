@@ -5,8 +5,7 @@
   "cordova": {
     "id": "cordova-plugin-contact-number-picker",
     "platforms": [
-      "android",
-      "ios"
+      "android"
     ]
   },
   "repository": {
@@ -22,8 +21,7 @@
     "contact",
     "picker",
     "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
+    "cordova-android"
   ],
   "author": "Domonkos Pal <public@dpal.hu> (https://github.com/Paldom)",
   "license": "MIT",
