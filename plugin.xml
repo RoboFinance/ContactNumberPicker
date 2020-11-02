@@ -33,22 +33,5 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         
     </platform>
 
-	<!-- ios -->
-	<platform name="ios">
-	  <config-file target="config.xml" parent="/*">
-		<feature name="ContactNumberPicker">
-		  <param name="ios-package" value="CDVContactNumberPicker"/>
-		</feature>
-	  </config-file>
-
-	  <header-file src="src/ios/CDVContactNumberPicker.h" />
-	  <source-file src="src/ios/CDVContactNumberPicker.m" />
-	  
-	  
-	  <framework src="AddressBook.framework" />
-      <framework src="AddressBookUI.framework" />
-        
-	</platform>
-	
 </plugin>
 
